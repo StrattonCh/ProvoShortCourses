@@ -1,0 +1,6 @@
+install.packages("remotes")
+remotes::install_github("rstudio/tensorflow")
+remotes::install_github("rstudio/keras")
+reticulate::install_miniconda()
+tensorflow::install_tensorflow()
+keras::install_keras()
